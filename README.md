@@ -8,7 +8,8 @@ js build processes work.
 
 So far it only works in Chrome, because that's how [odoe] has done it!
 
-And I've broken the build process right now.
+Please ignore the coffee script files, I've left them in for access to odoe's comments, 
+and I've broken the build process right now!
 
 [ArcGIS JavaScript]: http://help.arcgis.com/en/webapi/javascript/arcgis/index.html
 [odoe]: https://github.com/odoe

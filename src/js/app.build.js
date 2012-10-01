@@ -24,15 +24,14 @@
   appDir       : "../",
   baseUrl      : "js",
   dir          : "../../release",
-  name		   : "app",
   
-
+ /**
 	// single file approach
-  /**    baseUrl      : ".",
+     baseUrl      : ".",
 	name		 : "app",
 	out			 : "../../release/myApp.js",
-*/
 
+*/
 
   paths               : {
     "jquery"          : 'libs/jquery/jquery-1.7.2.min',
@@ -87,19 +86,19 @@
    * Use at your own discretion.
    * */
 
- /**  modules  : [
+   modules  : [
     {
-     
+     /**
        * I optimze my app file, because I use
        * my main file to set up my dojoConfig.
        * If doing a single js file optimization,
        * DO NOT include the dojoConfig file
        * to be included. It will blow you up.
        * Optmize the next entry point into your app.
-      
+      */
       name: "app"
     }
-  ], */
+  ], 
 
   /**
    * Will make your css a single line file

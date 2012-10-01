@@ -19,9 +19,20 @@
  * https://github.com/jrburke/r.js/blob/master/build/example.build.js
  */
 ({
+  // dir build approach
+
   appDir       : "../",
   baseUrl      : "js",
   dir          : "../../release",
+  name		   : "app",
+  
+
+	// single file approach
+  /**    baseUrl      : ".",
+	name		 : "app",
+	out			 : "../../release/myApp.js",
+*/
+
 
   paths               : {
     "jquery"          : 'libs/jquery/jquery-1.7.2.min',
@@ -75,19 +86,20 @@
    * to load rather than multiple smaller files.
    * Use at your own discretion.
    * */
-  modules  : [
+
+ /**  modules  : [
     {
-      /**
+     
        * I optimze my app file, because I use
        * my main file to set up my dojoConfig.
        * If doing a single js file optimization,
        * DO NOT include the dojoConfig file
        * to be included. It will blow you up.
        * Optmize the next entry point into your app.
-       */
+      
       name: "app"
     }
-  ],
+  ], */
 
   /**
    * Will make your css a single line file

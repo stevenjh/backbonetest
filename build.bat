@@ -1,7 +1,10 @@
 rem build executable for sample app
 
-rem cd\
-rem cd c:\dev\js
+cd c:\dev\js\backbonetest\release
+del *.* /Q
+
+cd\
+cd c:\dev\js\backbonetest
 
 node ../commonTools/r.js -o src/js/app.build.js
 

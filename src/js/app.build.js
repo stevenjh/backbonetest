@@ -110,5 +110,5 @@
    * just include files/folders you don't want to
    * get exported to your release build folder.
    */
-  fileExclusionRegExp : /\.(coffee|coffee~|bak|js~|html~|css~|swp|rb|lnk)|sass|.sass-cache|build/
+  fileExclusionRegExp : /\.(coffee|coffee~|bak~|js~|html~|css~|swp|rb|lnk)|sass|.sass-cache|build/
 })
